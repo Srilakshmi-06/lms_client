@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header-container" ;>
+        <div class="logo">
+            <img src="asset/aniwatch-logo.png" alt="react bits" class="logo-image">
+        </div>
+        <nav class="head-container">
+            <ul class="head-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="index.html">logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="body-container">
+        <section id="video-content">
+            <video class="vi-bg" autoplay loop playsinline>
+                <source src="https://cdn.pixabay.com/video/2023/01/27/148134-793525322_large.mp4">
+            </video>
+        </section>
+        <section id="home">
+            <div class="desc">
+                <h1 class="ani">Welcome to AnimeWorld</h1>
+                <p>Your ultimate destination for anime lovers. Explore, watch, and enjoy a vast collection of anime
+                    series and movies.</p>
+            </div>
+            <div class="grid-container">
+                <div>
+                    <img src="asset/anime.png">
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione corporis
+                        labore aliquam perspiciatis amet, sit eius, praesentium quasi numquam ullam aut, aliquid dolorem
+                        tempora culpa delectus rem maiores quod!</p>
+                </div>
+                <div>
+                    <img src="asset/anime2.png">
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione corporis
+                        labore aliquam perspiciatis amet, sit eius, praesentium quasi numquam ullam aut, aliquid dolorem
+                        tempora culpa delectus rem maiores quod!
+                    </p>
+                </div>
+                <div>
+                    <img src="asset/anime.png">
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione corporis
+                        labore aliquam perspiciatis amet, sit eius, praesentium quasi numquam ullam aut, aliquid dolorem
+                        tempora culpa delectus rem maiores quod!
+                    </p>
+                </div>
+                <div>
+                    <img src="asset/anime2.png">
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione corporis
+                        labore aliquam perspiciatis amet, sit eius, praesentium quasi numquam ullam aut, aliquid dolorem
+                        tempora culpa delectus rem maiores quod!
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <section id="about">
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label type="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <p>@2024 AnimeWorld. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
