@@ -1,0 +1,81 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login-container {
+    height: 380px;
+    width: 500px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    align-items: center;
+    box-shadow: 1px 1px 50px grey;
+}
+
+.login-container p {
+    font-size: 25px;
+}
+
+.main-container h1 {
+    height: 50px;
+    font-size: 60px;
+    color: rgb(34, 94, 206);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    width: 450px;
+    height: 60px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+button {
+    width: 450px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(34, 94, 206);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.signup-container a {
+    font-size: 20px;
+    color: rgb(34, 94, 206);
+    text-decoration: none;
+}
+.signup-container a:hover {
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+.footer-container{
+  position: fixed;
+  bottom:0px;
+  left:0px;
+  width: 100%;
+  padding: 200px 0px 20px 400px;
+  background-color: white;
+  color:grey;
+}
+.footer-container div{
+    margin-bottom: 7px;
+}
+.footer-container a{
+    font-size: 20px;
+    margin-right:15px;
+    color:grey;
+    text-decoration: none;
+}
+.footer-container a:hover{
+    text-decoration: underline;
+}
